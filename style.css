@@ -43,7 +43,7 @@
 
 }
 .span1{
-    color:#0d6ffb;
+    color:#0d6ffb!important;
     
 
 }
@@ -293,7 +293,63 @@
         border: none;
         margin-top: 200px;
         text-align: center;
+        background-color: white;
     }
+    .depcard{
+        padding: 20px;
+        border-radius: 15px;
+      }
+      .depcard{
+        padding: 20px;
+        border-radius: 15px;
+      }
+      .accdbg{
+        background-color: #d9b38c;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .rconfirm{
+        color: white;
+        padding: 6px;
+        border-radius: 50px;
+        background-color: #00e600;
+        font-size: small;
+      }
+      
+      .notsbtn{
+        width: 200px;
+        font-weight: 600;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: x-small;
+      }
+      
+      
+      .depp{
+        font-size: x-small;
+        font-weight: 600;
+      }
+      .acch6a{
+        font-weight: 700;
+        font-size: small;
+        font-style: italic;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+      }
+      .acch6{
+        font-weight: 700;
+        font-size: 8px;
+      }
+      .accp{
+        font-weight: 600;
+        font-size: xx-small;
+      }
+      
+      .acctla{
+        color: black;
+        font-size: xx-small;
+        font-weight: 700;
+      }
 }
 .btnl2a{
     padding: 15px;
@@ -309,6 +365,58 @@
     .btnl2b{
         display: none;
     }
+    .depcard{
+        padding: 40px;
+        border-radius: 15px;
+      }
+      .accdbg{
+        background-color: #d9b38c;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .rconfirm{
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #00e600;
+        font-size: 20px;
+      }
+      
+      .notsbtn{
+        width: 300px;
+        font-weight: 600;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      .deph4{
+        font-weight: 700;
+        font-size: smaller;
+      }
+      .depp{
+        font-size: x-small;
+        font-weight: 600;
+      }
+      .acch6a{
+        font-weight: 700;
+        font-size: medium;
+        font-style: italic;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+      }
+      .acch6{
+        font-weight: 700;
+        font-size: x-small;
+      }
+      .accp{
+        font-weight: 600;
+        font-size: x-small;
+      }
+      
+      .acctla{
+        color: black;
+        font-size: small;
+        font-weight: 700;
+      }
 }
 @media screen and (max-width: 700px) {
     .btnl2a{
@@ -593,7 +701,9 @@
 
     }
    
-    
+    .signupcard{
+        width: 600px;
+    }
 }
 .h5e{
     font-weight: 600;
@@ -652,6 +762,32 @@ display: block;
 .nav-link1{
     color: white;
 }
+.form-control{
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+}
+label{
+    font-weight: 600;
+    font-size: small;
+}
+.sbtn{
+    width: 400px;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+}
+.eye{
+    color: #0d1a00;
+    margin-top: -30px;
+    font-size: 20px;
+  }
   
+  #hide1{
+    display: none;
+  }
+  .signupcard{
+    border-radius: 25px;
+  }
   
  
