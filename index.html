@@ -210,8 +210,8 @@
                 <div class="bg3a">
                     <h5 class="h5b">Steps to get started</h5>
                     <p class="p3">Follow this steps to get started  and <br> test your trading strategies in real-market conditions.</p>
-                    <a type="button" class=" btnl1a shadow nav-link" href="steps.html">FOLLOW STEPS!</a>
-                    <a type="button" class=" btnl1b shadow nav-link"  href="steps.html">FOLLOW STEPS!</a>
+                    <a type="button" class=" btnl1a shadow nav-link" data-bs-toggle="modal" data-bs-target="#myModalsteps">FOLLOW STEPS!</a>
+                    <a type="button" class=" btnl1b shadow nav-link"  data-bs-toggle="modal" data-bs-target="#myModalsteps">FOLLOW STEPS!</a>
                 </div>
             </div>
         </div>
@@ -718,8 +718,9 @@
                 <input class="form-check-input" type="checkbox" name="remember"> I confirm that I am not a U.S. citizen, resident, or affiliate.
               </label>
             </div>
-            <button type="submit"data-bs-toggle="modal" data-bs-target="#myModalpay" class="btn btn-primary sbtn mx-auto">OPEN ACCOUNT</button>
           </form>
+          <button data-bs-toggle="modal" data-bs-target="#myModalpay" class="btn btn-primary sbtn shadow mx-auto">OPEN ACCOUNT</button>
+          <button data-bs-toggle="modal" data-bs-target="#myModalpay" class="btn btn-light sbtn2 shadow mx-auto mt-2">LOG IN</button>
           <p class="mt-3" style="font-size: x-small; font-weight:400">By pressing Open Account, you confirm
             that you have read and agree with our Customer Agreement.</p>
       </div>
@@ -731,7 +732,7 @@
     </div>
   </div>
   <!-- The Modal payment-->
-<div class="modal fade" style="transition: 7s;" id="myModalpay">
+<div class="modal fade" style="transition:10s;" id="myModalpay">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
   
@@ -744,9 +745,8 @@
   
         <!-- Modal body -->
         <div class="modal-body">
-            <div class="card shadow bg-light depcard mt-3">
+            <div class="card shadow bg-light mx-auto depcard mt-3">
                 <h4 class="deph4">Your account was successfully created <i class="fas fa-check rconfirm"></i></h4>
-                <p class="depp">Register your prefered plan</p>
                 <div class="accdbg shadow">
                    <div class="row">
                         <div class="col">
@@ -779,17 +779,116 @@
     
                 <p class="mt-3 depp"><b>NOTE:</b> Your payments are secured by <b>SSL</b> protocol</p>
 
-                <form>
-                  <select class="form-select">
-                    <option>bronze</option>
-                    <option>silver</option>
-                    <option>gold</option>
-                    <option>plantinum</option>
-                  </select>
-                 </form>    
+                <div class="row mt-2">
+                    <div class="col-4">
+                      <p style="font-size:xx-small ;font-weight:500"> <i class="stf fa fa-check"></i> NO COMMISSION</p>
+                    </div>
+                    <div class="col-4">
+                        <p style="font-size:xx-small ;font-weight:500"> <i class="stf fa fa-check"></i> BEST EXCHANGE RATES</p>
+                      </div>
+                      <div class="col-4">
+                        <p style="font-size:xx-small ;font-weight:500"> <i class="stf fa fa-check"></i> 50% DEPOSIT BONUS</p>
+                      </div>
+                  </div>
+
+                  <img src="img/btc.png" class="mx-auto" alt="">
+
+                  <p style="font-weight: 500; font-size:small" class="mt-3">Specify the deposit amount</p>
+                  <div class="row mt-1">
+                    <div class="col-md-3 py-2">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                                <label class="form-check-label" for="radio1">₦100,000.00 <br>$134.75</label>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row mt-1">
+                    <div class="col-md-3 py-2">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                                <label class="form-check-label" for="radio2">₦50,000.00 <br>$67.38</label>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row mt-1">
+                    <div class="col-md-3 py-2">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                                <label class="form-check-label" for="radio2">₦20,000.00 <br>$26.95</label>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row mt-1">
+                    <div class="col-md-3 py-2">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="number" style="outline:none ;"   placeholder="₦ orther" name="email">
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <p style="font-weight: 500; font-size:small" class="mt-3">Choose bonus</p>
+                  <a href="#demo" style="outline: 1px solid black; padding: 10px; font-weight: 500; border-radius: 15px; text-decoration: none; color: black!important;"  data-bs-toggle="collapse">What advantages does the bonus bring?</a>
+                <div id="demo" class="collapse">
+                 <div class="row mt-3" style="font-size:xx-small ;font-weight: 500;">
+                    <div class="col-6">
+                        <img src="img/bonus-advantage-01.jpg" width="50px" height="50px" alt=""> Provides higher trading volume
+                    </div>
+                    <div class="col-6">
+                        <img src="img/bonus-advantage-02.jpg" width="50px" height="50px" alt=""> Does not block withdrawals
+                    </div>
+                 </div><hr>
+                 <div class="row mt-3" style="font-size:xx-small ;font-weight: 500;">
+                    <div class="col-6">
+                        <img src="img/bonus-advantage-03.jpg" width="50px" height="50px" alt=""> Can be converted to your money in full by trading
+                    </div>
+                    <div class="col-6">
+                        <img src="img/bonus-advantage-04.jpg" width="50px" height="50px" alt=""> Can be cancelled at your will at any moment
+                    </div>
+                 </div>
+             </div>
+             <a href="#demo2" style="outline: 1px solid black; padding: 10px; font-weight: 400; border-radius: 15px; text-decoration: none; color: black!important; font-size: small;" class="mt-3" data-bs-toggle="collapse">Select the percentage and apply the bonus <br><span style="font-size: x-small;">
+                Unlimited 10–50% bonus</span></a>
+             <div id="demo2" class="collapse">
+                
+                <div class="row mt-1">
+                    <div class="col-md-3 py-2">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                                <label class="form-check-label" for="radio2">10%</label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-2">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                                <label class="form-check-label" for="radio2">30%</label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-2">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                                <label class="form-check-label" for="radio2">50%</label>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+             </div>
+             <a href="tel:+08082225459" type="button" class="btn btn-success p-3 notsbtn mt-3 shadow">NOTIFY US AFTER TRANSFER</a>
+            </div>
     
-               
-                <a href="tel:+08082225459" type="button" class="btn btn-success notsbtn mt-3 shadow">NOTIFY US AFTER TRANSFER</a>
+                
             </div>
         </div>
   
@@ -800,6 +899,63 @@
   </div>
   
 </div>
+
+<!-- The Modal -->
+<div class="modal fade" id="myModalsteps">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header" style="background-color: black;">
+        <img src="img/logo.svg" style="width: 90px; height: 20px;" alt="">
+        
+      <button type="button" class="btn-close" style="background-color: white;" data-bs-dismiss="modal"></button>
+    </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <!--bg-->
+    <div class="stepsbg">
+        <!--steps to invest-->
+       <h3 class="sh3a">Simple Steps To Get Started</h3>
+       <div class="line1 shadow"></div>
+       <div class="line2 mt-1 shadow"></div>
+       <div class="row mt-5 gx-5 ">
+           <div class="col-12 col-md-3 py-3">
+               <i class="far fa-thumbs-up fa-2x shadow awesome1 "></i>
+               <h5 class="h4f">Create An Account</h5>
+               <p class="pf">Sign up on our website with the<br>information required</p>
+               <p class="p1 shadow">1</p>
+           </div>
+           <div class="col-12 col-md-3 py-3">
+               <i class="fas fa-lock-open fa-2x shadow awesome1"></i>
+               <h5 class="h4f">Log In Account</h5>
+               <p class="pf">Log In & Open Your Personal<br>Account</p>
+               <p class="p1 shadow">2</p>
+           </div>
+           <div class="col-12 col-md-3 py-3 ">
+               <i class="fas fa-donate fa-2x shadow awesome1"></i>
+               <h5 class="h4f">Deposit An Amount </h5>
+               <p class="pf">We have The Best Investment<br> Plans</p>
+               <p class="p1 shadow">3</p>
+           </div>
+           <div class="col-12 col-md-3 py-3">
+               <i class="fas fa-money-bill-alt fa-2x shadow awesome1"></i>
+               <h5 class="h4f">Withdraw Profit</h5>
+               <p class="pf">Withdraw Your Profit In Your Personal<br> Account</p>
+               <p class="p1 shadow">4</p>
+           </div>
+       </div>
+   </div>
+        </div>
+  
+        <!-- Modal footer -->
+      
+  
+      </div>
+    </div>
+  </div>
+  
 
 
 

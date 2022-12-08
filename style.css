@@ -14,6 +14,19 @@
     padding: 30px;
     position:relative;
 }
+.stf{
+    color: #007aff;
+    border-radius: 50px;
+    background-color: lightblue;
+    padding: 5px;
+}
+.stepsbg{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/practice.jpg');
+    height: 140vh;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
 @media only  screen and (max-width: 620px) {
     .bg2{
      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bg2.jpg');
@@ -299,10 +312,7 @@
         padding: 20px;
         border-radius: 15px;
       }
-      .depcard{
-        padding: 20px;
-        border-radius: 15px;
-      }
+      
       .accdbg{
         background-color: #d9b38c;
         padding: 10px;
@@ -319,8 +329,8 @@
       .notsbtn{
         width: 200px;
         font-weight: 600;
-        padding: 5px;
-        border-radius: 10px;
+        padding: 15px;
+        border-radius: 30px;
         font-size: x-small;
       }
       
@@ -368,6 +378,7 @@
     .depcard{
         padding: 40px;
         border-radius: 15px;
+        width: 800px;
       }
       .accdbg{
         background-color: #d9b38c;
@@ -385,8 +396,8 @@
       .notsbtn{
         width: 300px;
         font-weight: 600;
-        padding: 5px;
-        border-radius: 10px;
+        padding: 15px;
+        border-radius: 30px;
       }
       .deph4{
         font-weight: 700;
@@ -772,10 +783,18 @@ label{
     font-size: small;
 }
 .sbtn{
-    width: 400px;
+    width: 100%;
     border-radius: 25px;
     padding: 10px;
     font-weight: 600;
+    color: white;
+}
+.sbtn2{
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+    color: #007aff;
 }
 .eye{
     color: #0d1a00;
